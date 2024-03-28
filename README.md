@@ -18,16 +18,6 @@ https://sntsella.github.io
 2. Navegue até o diretório do projeto `cd sntsella.github.io` 
 3. Abra o arquivo `index.html` em seu navegador web.
 
-## Uso
-
-Após abrir a aplicação no navegador, vocÊ verá o perfil padrão carregado. Para alterar as informações exibidas, você pode editar o arquivo data.json
-
-```javascript
-const exemplo = require('seu-projeto');
-
-// Exemplo de como usar seu projeto
-```
-
 # Tecnologias Usadas
 - HTML5
 - CSS3
