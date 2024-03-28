@@ -16,3 +16,18 @@ const showSocial = (toggleCard, socialCard) => {
   })
 }
 showSocial('card-toggle', 'card-social')
+
+const chk = document.getElementById('ri-contrast-2-line')
+const card = document.getElementById('card')
+
+chk.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  if (document.body.classList.contains('dark')){
+    chk.style.color = "white";
+    card.style.backgroundColor = '#e5e5e5';
+    card.style.color = 'black'
+  }else{
+    card.style.backgroundColor = "";
+    card.style.color = "";
+  }
+})

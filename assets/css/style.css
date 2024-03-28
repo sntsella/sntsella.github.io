@@ -26,6 +26,11 @@
 body {
   font-family: var(--body-font);
   background-color: var(--body-color);
+  transition: background 0.2s linear;
+}
+
+body.dark{
+  background-color: var(--black-color);
 }
 
 a {
@@ -43,6 +48,7 @@ img {
 
 /*=============== CARD ===============*/
 .container {
+  margin-top: -3rem;
   height: 100vh;
   margin-inline: 1.5rem;
   display: grid;
@@ -182,4 +188,16 @@ img {
   88%{
     transform: rotate(-1deg);
   }
+}
+
+/* ICON DARKMOD*/
+.icon{
+  display: inline-flex;
+  color: #000;
+  border: none;
+  font-size: 35px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  cursor: pointer;
 }

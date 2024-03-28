@@ -33,16 +33,6 @@ const exemplo = require('seu-projeto');
 - CSS3
 - JavaScript
 
-## Contribuição
-
-Contruibuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Faça commit das suas mudanças (`git commit -am 'Adicionando nova feature'`)
-4. Faça push para a branch (`git push origin feature/nova-feature`)
-5. Crie um novo Pull Request
-
 ## Licença
 
 [MIT License](LICENSE)
