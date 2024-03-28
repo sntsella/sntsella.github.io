@@ -27,6 +27,7 @@ chk.addEventListener('click', () => {
     card.style.backgroundColor = '#e5e5e5';
     card.style.color = 'black'
   }else{
+    chk.style.color = "black"
     card.style.backgroundColor = "";
     card.style.color = "";
   }
